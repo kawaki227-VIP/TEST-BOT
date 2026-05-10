@@ -1,0 +1,21 @@
+{
+  "name": "TEST-BOT",
+  "description": "TEST-BOT WhatsApp bot made by KAWAKI227 official",
+  "logo": "https://files.catbox.moe/fnqg9u.jpg",
+  "keywords": ["bot","TEST-BOT","TEST-BOT"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the TEST-BOT session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
